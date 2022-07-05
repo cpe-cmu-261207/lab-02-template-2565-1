@@ -5,8 +5,8 @@ const input2 = [999, 998, 997];
 const input3 = [-5, -4, 0];
 const input4 = [1];
 
-console.log(lazyMax(input1));
-console.log(lazyMax(input2));
+console.log(func(input1));
+console.log(func(input2));
 
 const output1 = 7;
 const output2 = 999;
