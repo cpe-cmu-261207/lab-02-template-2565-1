@@ -2,7 +2,7 @@ const func = require("../q4");
 
 const input1 = [0, 0, 7];
 const input2 = [999, 998, 997];
-const input3 = [-5, -4, 0];
+const input3 = [-5, -4, -1];
 const input4 = [1];
 
 console.log(func(input1));
@@ -10,7 +10,7 @@ console.log(func(input2));
 
 const output1 = 7;
 const output2 = 999;
-const output3 = 0;
+const output3 = -1;
 const output4 = 1;
 
 test("outputs the correct number 1", () => {
